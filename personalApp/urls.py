@@ -1,9 +1,8 @@
-from django.urls import include, path
+from django.urls import  path
 
-from .views import DepartmentView,DepartmentPersonalView
+from .views import DepartmentPersonalView, DepartmentView
 
 urlpatterns = [
-    path('', DepartmentView.as_view()),
-    path('department/<str:department>/', DepartmentPersonalView.as_view()),
-    
+    path('',DepartmentView.as_view()),
+    path('department/<str:department>/',DepartmentPersonalView.as_view()),
 ]
