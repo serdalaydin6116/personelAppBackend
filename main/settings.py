@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     #myApps
     'users',
     'personalApp',
+    
 ]
 
 MIDDLEWARE = [
