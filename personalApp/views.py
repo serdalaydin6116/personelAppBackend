@@ -16,7 +16,7 @@ class DepartmentView(generics.ListAPIView):
     # permission_classes = [IsAuthenticated]
 
 class DepartmentPersonalView(generics.ListAPIView):
-    serializer_class=DepartmentSerializer
+    serializer_class=DepartmentPersonalSerializer
     queryset=Department.objects.all()
     # permission_classes = [IsAuthenticated]
 
