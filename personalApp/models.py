@@ -36,4 +36,3 @@ class Personal(models.Model):
     def __str__(self):
         return f"{self.title} : {self.first_name}"
     
-
